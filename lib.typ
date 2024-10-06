@@ -1,6 +1,20 @@
 #import "@preview/subpar:0.1.1"
 #import "@preview/physica:0.9.3": *
 
+#let title-style = set text(font: "Canela Deck", weight: "bold", color: #000094, align: center)
+#let author-style = set text(font: "Graphik", weight: "regular", color: #FB6C03, align: center)
+#let h1-style = set text(font: "Canela Deck", weight: "bold", color: #FB6C03, align: left)
+#let h2-style = set text(font: "Graphik", weight: "semibold", color: #000094, align: left)
+#let h3-style = set text(font: "Graphik", weight: "medium", align: left)
+#let h4-style = set text(font: "Graphik", weight: "medium", align: left)
+#let math-font = set math.font("Noto Sans Math")
+
+=title
+
+==heading 1
+===heading 2
+====heading 3
+
 #let stroke-color = luma(200)
 #let std-bibliography = bibliography
 #let isappendix = state("isappendix", false)
